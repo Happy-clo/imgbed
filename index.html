@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml"
+    href="https://img.hapxs.com/uploads/20250901/c95a6d268cfaa8dc44bd7ffd3cedc4c2.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSP 配置允许 cy-pic.kuaizhan.com 域名 -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline' 'unsafe-eval';
+    style-src 'self' 'unsafe-inline';
+    img-src 'self' data: blob: https: http: https://cy-pic.kuaizhan.com https://*.kuaizhan.com https://img.hapxs.com;
+    connect-src 'self' https: http: ws: wss: https://cy-pic.kuaizhan.com https://*.kuaizhan.com https://img.xcool.workers.dev https://upload.cc https://tgimg.hapxs.com https://api.allorigins.win ;
+    font-src 'self' data:;
+    object-src 'none';
+    media-src 'self' https://cy-pic.kuaizhan.com https://*.kuaizhan.com https://img.hapxs.com;
+    frame-src 'none';
+    base-uri 'self';
+    form-action 'self';
+  ">
+
+  <!-- CORS 预检请求配置 -->
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>图片上传 - Hapxscom</title>
+</head>
+
+<body class="bg-background min-h-screen">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
