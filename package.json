@@ -52,6 +52,6 @@
     "vite": "^4.4.9",
     "vite-plugin-obfuscator": "^1.0.3",
     "vitest": "^0.34.2",
-    "wrangler": "^3.114.14"
+    "wrangler": "^4.45.0"
   }
 }
