@@ -51,7 +51,7 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.9",
     "vite-plugin-obfuscator": "^1.0.3",
-    "vitest": "^0.34.2",
+    "vitest": "^4.0.15",
     "wrangler": "^3.114.14"
   }
 }
